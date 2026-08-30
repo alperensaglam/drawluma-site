@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drawluma — Destek</title>
+<meta name="description" content="Drawluma çizim asistanı için destek, sık sorulan sorular ve iletişim.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="mark"><span class="dot"></span><h1>Drawluma</h1></span>
+  <p class="tagline">Kâğıda bakarak çizim asistanı</p>
+  <p class="lang-switch"><a href="#english">In English ↓</a> · <a href="privacy.html">Gizlilik Politikası</a></p>
+</header>
+
+<p class="lede">Drawluma fotoğrafını çizilebilir bir kontur çizimine çevirir ve üç
+farklı yöntemden biriyle gerçek kâğıdının üzerine referans olarak yansıtır.
+Bu sayfa destek sayfasıdır — takıldığınız yerde buradan yardım alabilirsiniz.</p>
+
+<h2>Üç çizim yöntemi</h2>
+
+<div class="card">
+  <h3>Kamera ile Çiz</h3>
+  <p>Telefonu bir bardağa, tripoda ya da kitap yığınına dayayın. Şablon canlı kamera
+  görüntüsünün üzerine biner; siz ekrana bakarak kâğıda çizersiniz. <strong>En kararlı
+  yöntem budur.</strong></p>
+
+  <h3>AR ile Çiz</h3>
+  <p>Telefonu elinizde tutun. Şablon masadaki kâğıdın üzerine sanal olarak çapalanır
+  ve telefonu hareket ettirseniz de yerinde kalır. ARKit destekleyen cihaz gerektirir.</p>
+
+  <h3>Ekran ile Çiz</h3>
+  <p>Kamera hiç kullanılmaz. Telefonu masaya düz koyun, ince ya da aydınger kâğıdını
+  doğrudan ekrana yerleştirin. Ekran ışıklı masa gibi çalışır. Bu mod hiçbir izin istemez.</p>
+</div>
+
+<h2>Sık sorulan sorular</h2>
+
+<h3>AR modu kartı soluk görünüyor, açılmıyor</h3>
+<p>Cihazınız ARKit'i desteklemiyor demektir. Kamera modu aynı sonucu verir ve zaten
+daha kararlıdır — endişelenmeyin, bir şey kaybetmiyorsunuz.</p>
+
+<h3>AR modunda şablon kayıyor</h3>
+<p>ARKit'in en zorlandığı yüzey düz, desensiz ve beyaz bir yüzeydir — yani tam olarak
+çizim kâğıdı. Kâğıdın kenarlarının kadraja girmesini sağlayın, ışığı artırın, ya da
+Kamera moduna geçin.</p>
+
+<h3>AR modunda 0.5x geniş açı düğmesi yok</h3>
+<p>Bu bir hata değil: <code>ARWorldTrackingConfiguration</code> yalnızca standart
+geniş açı kamerayı destekliyor, ARKit çalışırken ultra geniş kameraya geçmenin
+desteklenen bir yolu yok. Lens düğmesi bu yüzden yalnızca Kamera modunda görünür.</p>
+
+<h3>Elimi ekrana koyduğumda şablon kayıyor</h3>
+<p>Hizaladıktan sonra <strong>kilit düğmesine</strong> basın. Kilitliyken şablon
+dokunmayla oynamaz. Kilidi açmak için düğmeyi 1,5 saniye basılı tutun — yanlışlıkla
+açılmasın diye kasıtlı olarak zor.</p>
+
+<h3>Ekran modunda kâğıt ekrana zarar verir mi?</h3>
+<p>Normal kullanımda hayır. Yine de ekrana sert bastırmayın ve ince ya da aydınger
+kâğıt kullanın; kalın kâğıt zaten ışığı geçirmez.</p>
+
+<h3>Çizimlerim nerede saklanıyor?</h3>
+<p>Yalnızca cihazınızda. Her çizim otomatik kaydedilir; Galeri sekmesinden kaldığınız
+yerden devam edebilirsiniz. Hiçbir dosya sunucuya gönderilmez.</p>
+
+<h3>Verilerimi nasıl silerim?</h3>
+<p>Uygulamayı silmeniz yeterli. Bütün fotoğraflar, üretilen çizimler ve ayarlar
+uygulamanın kendi klasöründe durur ve uygulamayla birlikte silinir. Bizde tutulan
+bir kopyası yoktur.</p>
+
+<h3>Çizgiler çok az / çok karışık çıkıyor</h3>
+<p>Çizgiye çevirme ekranındaki kaydırıcıları kullanın: <em>Detay</em> ne kadar ince
+ayrıntı yakalanacağını, <em>Eşik</em> neyin çizgi sayılacağını belirler. Portre, Genel
+ve Grafik hazır ayarları iyi bir başlangıç noktasıdır.</p>
+
+<h3>Sol elle çiziyorum, kontroller elimin altında kalıyor</h3>
+<p>Profil sekmesinden <strong>Sol el modu</strong>nu açın; kontroller diğer tarafa geçer.</p>
+
+<h2>İletişim</h2>
+<div class="card">
+  <p>Sorunuz, hata bildiriminiz ya da öneriniz için yazın:</p>
+  <p><strong><a href="mailto:alperensaglam177@gmail.com">alperensaglam177@gmail.com</a></strong></p>
+  <p class="meta">Genellikle birkaç iş günü içinde yanıtlıyorum. Bir hatayı bildirirken
+  cihaz modelinizi, iOS sürümünüzü ve hangi modda olduğunuzu yazarsanız çok yardımcı olur.</p>
+</div>
+
+<hr class="section">
+
+<header id="english" style="border-bottom:1px solid var(--line)">
+  <h1>Drawluma</h1>
+  <p class="tagline">A drawing assistant for real paper</p>
+</header>
+
+<p class="lede">Drawluma turns your photo into a traceable contour drawing and projects
+it onto your real paper as a reference, using one of three methods. This is the
+support page.</p>
+
+<h2>Three ways to draw</h2>
+<div class="card">
+  <h3>Draw with Camera</h3>
+  <p>Rest your phone on a glass, tripod, or stack of books. The template overlays the
+  live camera feed; you watch the screen and draw on paper. <strong>This is the most
+  stable method.</strong></p>
+
+  <h3>Draw with AR</h3>
+  <p>Hold your phone. The template is anchored to the paper on your table and stays in
+  place as you move. Requires an ARKit-capable device.</p>
+
+  <h3>Draw with Screen</h3>
+  <p>No camera at all. Lay your phone flat and place thin or tracing paper directly on
+  the screen. The screen works like a light box. This mode asks for no permissions.</p>
+</div>
+
+<h2>FAQ</h2>
+
+<h3>The AR card is greyed out</h3>
+<p>Your device doesn't support ARKit. Camera mode produces the same result and is more
+stable anyway — you're not missing anything.</p>
+
+<h3>The template drifts in AR mode</h3>
+<p>ARKit's hardest surface is a flat, featureless, white one — exactly what drawing
+paper is. Keep the paper's edges in frame, add light, or switch to Camera mode.</p>
+
+<h3>There's no 0.5x button in AR mode</h3>
+<p>Not a bug: <code>ARWorldTrackingConfiguration</code> only supports the wide-angle
+camera, and there is no supported way to reach the ultra-wide lens while ARKit is
+running. The lens button therefore appears only in Camera mode.</p>
+
+<h3>The template shifts when my hand touches the screen</h3>
+<p>Press <strong>Lock</strong> once you've aligned it. While locked, touches can't move
+the template. To unlock, hold the button for 1.5 seconds — deliberately hard, so it
+can't happen by accident.</p>
+
+<h3>Will the paper damage my screen in Screen mode?</h3>
+<p>Not in normal use. Still, don't press hard on the display, and use thin or tracing
+paper — thick paper won't let the light through anyway.</p>
+
+<h3>Where are my drawings stored?</h3>
+<p>On your device only. Every drawing is saved automatically; resume from the Gallery
+tab whenever you want. Nothing is uploaded.</p>
+
+<h3>How do I delete my data?</h3>
+<p>Delete the app. All photos, generated drawings, and settings live in the app's own
+folder and are removed with it. We hold no copy.</p>
+
+<h3>The line art is too sparse or too noisy</h3>
+<p>Use the sliders on the line-art screen: <em>Detail</em> controls how fine the
+captured detail is, <em>Threshold</em> controls what counts as a line. The Portrait,
+General, and Graphic presets are good starting points.</p>
+
+<h3>I'm left-handed and the controls are under my hand</h3>
+<p>Turn on <strong>Left-handed mode</strong> in the Profile tab; the controls move to
+the other side.</p>
+
+<h2>Contact</h2>
+<div class="card">
+  <p>Questions, bug reports, and suggestions:</p>
+  <p><strong><a href="mailto:alperensaglam177@gmail.com">alperensaglam177@gmail.com</a></strong></p>
+  <p class="meta">I usually reply within a few business days. When reporting a bug,
+  please include your device model, iOS version, and which mode you were in.</p>
+</div>
+
+<footer>
+  <p>Drawluma · <a href="privacy.html">Gizlilik Politikası / Privacy Policy</a></p>
+</footer>
+
+</div>
+</body>
+</html>
