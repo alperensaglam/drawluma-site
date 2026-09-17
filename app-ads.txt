@@ -1,0 +1,3 @@
+# Drawluma - Authorized Sellers for Apps
+# IAB Tech Lab app-ads.txt v1.0
+google.com, pub-3839238983276420, DIRECT, f08c47fec0942fa0
