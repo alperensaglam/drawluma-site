@@ -1,24 +1,61 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" data-title-tr="Destek · Drawluma" data-title-en="Support · Drawluma">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Drawluma — Destek</title>
-<meta name="description" content="Drawluma çizim asistanı için destek, sık sorulan sorular ve iletişim.">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Destek · Drawluma</title>
+  <meta name="description" content="Drawluma çizim asistanı için destek, sık sorulan sorular ve iletişim. Drawluma support, FAQ and contact.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="/assets/apps/drawluma-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/apps/drawluma-icon.png">
+  <link rel="preload" href="/assets/fonts/mona-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/site.js"></script>
 </head>
-<body>
-<div class="wrap">
-
-<header>
-  <span class="mark"><span class="dot"></span><h1>Drawluma</h1></span>
-  <p class="tagline">Kâğıda bakarak çizim asistanı</p>
-  <p class="lang-switch"><a href="#english">In English ↓</a> · <a href="privacy.html">Gizlilik Politikası</a></p>
+<body class="app-drawluma">
+<a class="skip" href="#content"><span data-lang="tr">İçeriğe geç</span><span data-lang="en">Skip to content</span></a>
+<header class="bar">
+  <div class="bar-in">
+    <a class="brand" href="/">Alperen Sağlam</a>
+    <span class="crumb-sep" aria-hidden="true"></span>
+    <a class="brand-app" href="/drawluma-site/"><img src="/assets/apps/drawluma-icon.png" alt="" width="28" height="28"><span>Drawluma</span></a>
+    <nav class="nav" aria-label="Menü">
+      <a class="nav-wide" href="/#apps"><span data-lang="tr">Tüm uygulamalar</span><span data-lang="en">All apps</span></a>
+      <div class="lang" role="group" aria-label="Dil / Language">
+        <button type="button" data-set="tr" aria-pressed="true">TR</button>
+        <button type="button" data-set="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
 </header>
+<div class="tabs-wrap">
+  <div class="app-hero">
+    <div class="app-hero-in">
+      <img class="icon" src="/assets/apps/drawluma-icon.png" alt="" width="88" height="88">
+      <div class="titles">
+        <div class="app-name">Drawluma</div>
+        <p class="tagline"><span data-lang="tr">Kâğıda bakarak çizim asistanı</span><span data-lang="en">A drawing assistant for real paper</span></p>
+      </div>
+      <a class="badge" href="https://apps.apple.com/app/id6806856472"><img src="/assets/badges/app-store-en.svg" alt="App Store'dan indir / Download on the App Store" width="132" height="44"></a>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Drawluma"><a href="/drawluma-site/" aria-current="page"><span data-lang="tr">Nasıl kullanılır</span><span data-lang="en">How to use</span></a><a href="/drawluma-site/privacy.html"><span data-lang="tr">Gizlilik</span><span data-lang="en">Privacy</span></a></nav>
+</div>
+<main class="doc" id="content">
+<div data-lang="tr" lang="tr">
+<h1>Destek</h1>
+
 
 <p class="lede">Drawluma fotoğrafını çizilebilir bir kontur çizimine çevirir ve üç
 farklı yöntemden biriyle gerçek kâğıdının üzerine referans olarak yansıtır.
 Bu sayfa destek sayfasıdır — takıldığınız yerde buradan yardım alabilirsiniz.</p>
+<h2>Nasıl kullanılır</h2>
+<ol class="steps">
+  <li><strong>Fotoğrafını içe aktar.</strong> Çizmek istediğin fotoğrafı seç.</li>
+  <li><strong>Çizgiye çevir.</strong> Drawluma fotoğrafı temiz bir kontur çizimine çevirir; Detay ve Eşik kaydırıcılarıyla ya da Portre, Genel ve Grafik hazır ayarlarıyla incelt.</li>
+  <li><strong>Bir yöntem seç ve kâğıda çiz.</strong> Kamera, AR ya da Ekran yöntemlerinden biriyle şablonu kâğıdının üzerinde gör ve çiz.</li>
+</ol>
+
 
 <h2>Üç çizim yöntemi</h2>
 
@@ -107,17 +144,21 @@ geçtiyseniz de yapmanız gereken budur.</p>
   <p class="meta">Genellikle birkaç iş günü içinde yanıtlıyorum. Bir hatayı bildirirken
   cihaz modelinizi, iOS sürümünüzü ve hangi modda olduğunuzu yazarsanız çok yardımcı olur.</p>
 </div>
+</div>
+<div data-lang="en" lang="en">
+<h1>Support</h1>
 
-<hr class="section">
-
-<header id="english" style="border-bottom:1px solid var(--line)">
-  <h1>Drawluma</h1>
-  <p class="tagline">A drawing assistant for real paper</p>
-</header>
 
 <p class="lede">Drawluma turns your photo into a traceable contour drawing and projects
 it onto your real paper as a reference, using one of three methods. This is the
 support page.</p>
+<h2>How to use</h2>
+<ol class="steps">
+  <li><strong>Import your photo.</strong> Pick the photo you want to draw.</li>
+  <li><strong>Turn it into line art.</strong> Drawluma turns the photo into a clean contour drawing; refine it with the Detail and Threshold sliders or the Portrait, General and Graphic presets.</li>
+  <li><strong>Pick a method and draw on paper.</strong> See the template over your paper with the Camera, AR or Screen method, and draw.</li>
+</ol>
+
 
 <h2>Three ways to draw</h2>
 <div class="card">
@@ -204,11 +245,13 @@ after switching to a new device.</p>
   <p class="meta">I usually reply within a few business days. When reporting a bug,
   please include your device model, iOS version, and which mode you were in.</p>
 </div>
-
-<footer>
-  <p>Drawluma · <a href="privacy.html">Gizlilik Politikası / Privacy Policy</a></p>
-</footer>
-
 </div>
+</main>
+<footer class="foot">
+  <span>© 2026 Alperen Sağlam</span>
+  <span class="spacer"></span>
+  <a href="/"><span data-lang="tr">Tüm uygulamalar</span><span data-lang="en">All apps</span></a>
+  <a href="mailto:alperensaglam177@gmail.com"><span data-lang="tr">E-posta</span><span data-lang="en">Email</span></a>
+</footer>
 </body>
 </html>

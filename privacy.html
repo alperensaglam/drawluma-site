@@ -1,24 +1,54 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" data-title-tr="Gizlilik Politikası · Drawluma" data-title-en="Privacy Policy · Drawluma">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Drawluma — Gizlilik Politikası</title>
-<meta name="description" content="Drawluma fotoğraflarınızı ve çizimlerinizi cihazınızda tutar. Reklamlar için Google AdMob sınırlı veri işler; PRO reklamları kaldırır.">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gizlilik Politikası · Drawluma</title>
+  <meta name="description" content="Drawluma gizlilik politikası. Drawluma privacy policy: photos stay on your device; ads in the free version, Drawluma PRO turns them off.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="/assets/apps/drawluma-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/apps/drawluma-icon.png">
+  <link rel="preload" href="/assets/fonts/mona-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/site.js"></script>
 </head>
-<body>
-<div class="wrap">
-
-<header>
-  <a class="mark" href="index.html"><span class="dot"></span><h1>Drawluma</h1></a>
-  <p class="tagline">Gizlilik Politikası</p>
-  <p class="meta">Son güncelleme: 30 Eylül 2026</p>
-  <p class="lang-switch"><a href="#english">In English ↓</a> · <a href="index.html">Destek</a></p>
+<body class="app-drawluma">
+<a class="skip" href="#content"><span data-lang="tr">İçeriğe geç</span><span data-lang="en">Skip to content</span></a>
+<header class="bar">
+  <div class="bar-in">
+    <a class="brand" href="/">Alperen Sağlam</a>
+    <span class="crumb-sep" aria-hidden="true"></span>
+    <a class="brand-app" href="/drawluma-site/"><img src="/assets/apps/drawluma-icon.png" alt="" width="28" height="28"><span>Drawluma</span></a>
+    <nav class="nav" aria-label="Menü">
+      <a class="nav-wide" href="/#apps"><span data-lang="tr">Tüm uygulamalar</span><span data-lang="en">All apps</span></a>
+      <div class="lang" role="group" aria-label="Dil / Language">
+        <button type="button" data-set="tr" aria-pressed="true">TR</button>
+        <button type="button" data-set="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
 </header>
+<div class="tabs-wrap">
+  <div class="app-hero">
+    <div class="app-hero-in">
+      <img class="icon" src="/assets/apps/drawluma-icon.png" alt="" width="88" height="88">
+      <div class="titles">
+        <div class="app-name">Drawluma</div>
+        <p class="tagline"><span data-lang="tr">Kâğıda bakarak çizim asistanı</span><span data-lang="en">A drawing assistant for real paper</span></p>
+      </div>
+      <a class="badge" href="https://apps.apple.com/app/id6806856472"><img src="/assets/badges/app-store-en.svg" alt="App Store'dan indir / Download on the App Store" width="132" height="44"></a>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Drawluma"><a href="/drawluma-site/"><span data-lang="tr">Nasıl kullanılır</span><span data-lang="en">How to use</span></a><a href="/drawluma-site/privacy.html" aria-current="page"><span data-lang="tr">Gizlilik</span><span data-lang="en">Privacy</span></a></nav>
+</div>
+<main class="doc" id="content">
+<div data-lang="tr" lang="tr">
+<h1>Gizlilik Politikası</h1>
+<p class="updated">Son güncelleme: 30 Eylül 2026</p>
+
 
 <div class="card">
-  <h3>Kısa özet</h3>
+  <h2 class="card-title">Kısa özet</h2>
   <p>Fotoğraflarınız ve ürettiğiniz çizimler <strong>yalnızca cihazınızda kalır</strong> —
   hiçbir sunucuya gönderilmez. Uygulamanın kendisi sizden hiçbir veri toplamaz.</p>
   <p>Ücretsiz sürümde reklam gösteriliyor ve reklamları sunan Google AdMob bunun için
@@ -96,17 +126,14 @@ Transparency ekranında izin verildiyse kişiselleştirilir.</p>
 <h3>İletişim</h3>
 <p>Sorularınız ve destek talepleriniz için:
 <strong><a href="mailto:alperensaglam177@gmail.com">alperensaglam177@gmail.com</a></strong></p>
+</div>
+<div data-lang="en" lang="en">
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: 30 September 2026</p>
 
-<hr class="section">
-
-<header id="english" style="border-bottom:1px solid var(--line)">
-  <h1>Drawluma</h1>
-  <p class="tagline">Privacy Policy</p>
-  <p class="meta">Last updated: 30 September 2026</p>
-</header>
 
 <div class="card">
-  <h3>In short</h3>
+  <h2 class="card-title">In short</h2>
   <p>Your photos and the drawings you generate <strong>stay on your device</strong> —
   they are never sent to a server. The app itself collects no data from you.</p>
   <p>The free version shows ads, and Google AdMob processes a limited amount of data to
@@ -183,11 +210,13 @@ only personalised if tracking was allowed in the App Tracking Transparency promp
 <h3>Contact</h3>
 <p>Questions and support requests:
 <strong><a href="mailto:alperensaglam177@gmail.com">alperensaglam177@gmail.com</a></strong></p>
-
-<footer>
-  <p>Drawluma · <a href="index.html">Destek / Support</a></p>
-</footer>
-
 </div>
+</main>
+<footer class="foot">
+  <span>© 2026 Alperen Sağlam</span>
+  <span class="spacer"></span>
+  <a href="/"><span data-lang="tr">Tüm uygulamalar</span><span data-lang="en">All apps</span></a>
+  <a href="mailto:alperensaglam177@gmail.com"><span data-lang="tr">E-posta</span><span data-lang="en">Email</span></a>
+</footer>
 </body>
 </html>
